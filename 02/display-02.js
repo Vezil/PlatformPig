@@ -34,7 +34,7 @@ const Display = function(canvas) {
             this.context.canvas.width = height/height_width_ratio;
         }
 
-        this.context.imageSmoothingEnabled = false;
+        this.context.imageSmoothingEnabled = false; //wygladzanie
     };
 
 
