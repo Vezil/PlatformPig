@@ -262,7 +262,9 @@ Game.World.Player.prototype = {
     moveRight:function() {this.velocity_x += 0.5; },
 
     update:function(){
-
+        
+        this.x_old = this.x;
+        this.y_old = this.y;
         this.x += this.velocity_x;
         this.y += this.velocity_y;
     }
