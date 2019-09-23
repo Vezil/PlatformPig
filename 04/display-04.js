@@ -10,7 +10,7 @@ const Display = function(canvas) {
 
         for(let index = map.length - 1; index>-1; --index){
 
-            let value = map[index];
+            let value = map[index] ;
             let source_x = (value % this.tile_sheet.columns) * this.tile_sheet.tile_size;
             let source_y = Math.floor(value / this.tile_sheet.columns) * this.tile_sheet.tile_size;
             let destination_x = (index % columns) * this.tile_sheet.tile_size; // destination - przeznaczenie / cel
