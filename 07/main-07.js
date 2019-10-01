@@ -110,7 +110,7 @@ window.addEventListener("load",function(event){
             
         }
 
-        p.innerHTML = "Carrots: " + game.world.carrot_count;
+        p.innerHTML = "Paskudztwo: " + game.world.carrot_count;
 
 
         display.render();
